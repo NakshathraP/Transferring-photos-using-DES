@@ -4,7 +4,7 @@ from PIL import Image
 from des import des
 from convert import hex_to_binary
 
-image = Image.open("C:\\Users\\naksh\\OneDrive\\Desktop\\Extra\\DES_photo\\ladybug.jpeg")
+image = Image.open("input-image.jpeg")
 
 # pixel_array is a list of the pixels
 pixel_array = image.convert("RGB")
